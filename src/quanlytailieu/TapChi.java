@@ -28,4 +28,13 @@ public class TapChi extends TaiLieu {
     public void setThangPhatHanh(int thangPhatHanh) {
         this.thangPhatHanh = thangPhatHanh;
     }
+
+    @Override
+    public String toString() {
+        return "Tài liệu là : "+ "TapChi{"+ super.toString() +
+                "soPhatHanh=" + soPhatHanh +
+                ", thangPhatHanh=" + thangPhatHanh +
+                "} " ;
+    }
+
 }

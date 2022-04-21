@@ -18,4 +18,11 @@ public class Bao extends TaiLieu {
     public void setNgayPhatHanh(String ngayPhatHanh) {
         this.ngayPhatHanh = ngayPhatHanh;
     }
+
+    @Override
+    public String toString() {
+        return "Tài liệu là  : " + "Bao{"  + super.toString()+
+                "ngayPhatHanh='" + ngayPhatHanh + '\'' +
+                "} ";
+    }
 }

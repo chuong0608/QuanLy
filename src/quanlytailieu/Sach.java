@@ -28,4 +28,14 @@ public class Sach extends TaiLieu {
     public void setSoTrang(int soTrang) {
         this.soTrang = soTrang;
     }
+
+    @Override
+    public String toString() {
+        return   "Tài liệu là : " + "Sach{" +super.toString()+
+                "tenTacGia = '" + tenTacGia + '\'' +
+                ", soTrang = " + soTrang +
+                "} " ;
+    }
+
+
 }

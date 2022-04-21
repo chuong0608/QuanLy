@@ -37,4 +37,13 @@ public class TaiLieu {
     public void setSoBanPhatHanh(int soBanPhatHanh) {
         this.soBanPhatHanh = soBanPhatHanh;
     }
+
+    @Override
+    public String toString() {
+        return
+                "ma=" + ma +
+                ", tenNXB='" + tenNXB + '\'' +
+                ", soBanPhatHanh = " + soBanPhatHanh + ", "
+                ;
+    }
 }
